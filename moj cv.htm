@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marija Malešević CV</title>
+  
+  
+  
+  
+<link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="moj%20cv_files/css2.css" rel="stylesheet"><link rel="stylesheet" href="moj%20cv_files/style.css"></head>
+<body>
+  <div class="bg-overlay"></div>
+  <main>
+    <header class="main-header">
+      <div class="photo-wrapper">
+        <img src="moj%20cv_files/me.png" alt="Marija Malešević">
+      </div>
+      <div class="titles-wrapper">
+        <h1 class="main-title" data-translate-key="mainTitle">Skills and Abilities</h1>
+        <h2 class="main-subtitle" data-translate-key="name">Marija Malešević</h2>
+        <p class="general-text" data-translate-key="generalText1">A communicative person engaged in IT, aiming to solve technical problems in practice.</p>
+        <p class="general-text" data-translate-key="generalText2">I possess basic technical knowledge and a strong desire for further improvement.</p>
+        <p class="general-text" data-translate-key="generalText3">I am ready for teamwork, communication, continuous education, flexibility, and adaptability in a new job.</p>
+      </div>
+    </header>
+    <button id="lang-switch" aria-label="Switch language">HR</button>
+    <section class="tech-skills">
+      <p class="general-text" data-translate-key="school">Graduated from
+ high school (2021-2025), with a final thesis in informatics and 
+computer science on the topic 'Development of operating systems from 
+UNIX to modern OS'. Work experience includes knowledge of processor 
+operations, hardware components – their evolution and functionality.</p>
+      
+      <h4 data-translate-key="softverTitle">Work in application software:</h4>
+      <ul class="tech-list">
+        <li data-translate-key="os">Work in operating systems (Windows 7/10)</li>
+        <li data-translate-key="office">Work with basic computer programs and packages (MS Office)</li>
+        <li data-translate-key="db">Knowledge of databases, with experience using Microsoft Excel and SQL language</li>
+      </ul>
+
+      <h3 data-translate-key="designTitle">Design Experience</h3>
+      <p class="design-intro" data-translate-key="designIntro">Experience
+ in creating functional and aesthetically pleasing elements for user 
+interaction, design for websites and applications, including:</p>
+      <ul class="tech-list">
+        <li data-translate-key="ux">Understanding UX design principles with a focus on accessibility and ease of use</li>
+        <li data-translate-key="ui">Applying UI design principles with typography and visual hierarchy.</li>
+        <li data-translate-key="tools">Use of tools: Figma, Adobe XD, and Canva</li>
+        <li data-translate-key="course">Completed a UI/UX design course (JS Guru, Banja Luka) with practical assignments</li>
+        <li data-translate-key="responsive">Responsive design for different devices and resolutions.</li>
+      </ul>
+    </section>
+
+    <section class="languages">
+      <h3 data-translate-key="langTitle">Language skills</h3>
+      <ul class="lang-list">
+        <li data-translate-key="en">English – excellent spoken and written skills; active use in communication and working with technical documentation</li>
+        <li data-translate-key="it">Italian – basic knowledge; understanding of everyday expressions. Currently improving through self-study.</li>
+      </ul>
+    </section>
+      
+  </main>
+  <footer class="contact-info">
+    <p><span data-translate-key="birth">Date of birth:</span> <strong data-translate-key="birthValue">December 2, 2006</strong></p>
+    <p><span data-translate-key="place">Place of residence:</span> <strong data-translate-key="placeValue">Banja Luka, Bosnia and Herzegovina</strong></p>
+    <p><span data-translate-key="citizenship">Citizenship:</span> <strong data-translate-key="citizenshipValue">Bosnian and Croatian (dual)</strong></p>
+    <p><a href="mailto:marijjaa06@gmail.com"><strong data-translate-key="email">marijja06@gmail.com</strong></a></p>
+  </footer>
+  <script src="moj%20cv_files/lang.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+ </body></html>
