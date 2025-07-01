@@ -59,6 +59,8 @@ const translations = {
   }
 };
 
+
+
 const langSwitch = document.getElementById('lang-switch');
 let currentLang = 'hr';
 
